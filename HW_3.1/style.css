@@ -1,0 +1,385 @@
+@font-face {
+  font-family: Avenir;
+  src: url(../fonts/AvenirLT-Light.woff2), url(../fonts/AvenirLT-Light.woff);
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: Gilroy;
+  src: url(../fonts/Gilroy-Black.woff2), url(../fonts/Gilroy-Black.woff);
+  font-weight: 900;
+  font-display: swap;
+  font-style: normal;
+}
+body {
+  margin-top: 266px;
+  background: rgb(224, 224, 224);
+}
+.Baner_1 {
+  background: #0b2239;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+  padding: 10px;
+}
+.Baner_1_text {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #ffffff;
+  margin: 16px 0;
+  max-width: 920px;
+}
+.Baner_1_set {
+  margin: 0 20px 0 50px;
+}
+.Baner_1_set_text {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  color: #4ad295;
+}
+.Baner_1_but {
+  width: 100%;
+  max-width: 130px;
+  background-color: #4ad295;
+  padding: 8px 10px 8px 10px;
+  border-radius: 2px;
+  transition: background 0.2s linear;
+  text-align: center;
+}
+
+.Baner_1_button_text {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.Baner_2 {
+  background: #2b2627;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 0;
+  margin-bottom: 72px;
+  padding: 10px;
+}
+.Baner_2_image_1 {
+  margin: 0 8px 0 0;
+}
+.Baner_2_text {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+}
+.Baner_2_text span {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.Baner_2_image_2 {
+  margin: 0 0 0 20px;
+  cursor: pointer;
+}
+
+.Baner_3 {
+  background: #fff;
+  width: 100%;
+  max-width: 570px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  box-shadow: 0px 12px 24px -6px rgba(96, 96, 96, 0.15),
+    0px 0px 1px rgba(96, 96, 96, 0.1);
+  border-radius: 16px;
+  margin-bottom: 24px;
+}
+.Baner_3_image {
+  padding: 0 10px 0 0;
+}
+.Baner_3_text {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+.Baner_3_text span {
+  color: crimson;
+  cursor: pointer;
+}
+.Baner_3_but_1 {
+  background: rgba(13, 12, 34, 0.05);
+  padding: 4px 12px;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+.Baner_3_but_1_text {
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  color: #0d0c22;
+  line-height: 20px;
+}
+.Baner_3_but_2 {
+  background: #ea4c89;
+  padding: 4px 10px;
+  border-radius: 8px;
+  margin-right: 16px;
+}
+.Baner_3_but_2_text {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.Baner_4 {
+  background: #26262b;
+  width: 100%;
+  max-width: 570px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  border-radius: 16px;
+  margin-bottom: 72px;
+}
+.Baner4_text {
+  font-family: Avenir;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 20px;
+}
+.Baner4_text span {
+  color: darkgoldenrod;
+  cursor: pointer;
+}
+.Baner_4_but {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 4px 10px;
+}
+.Baner_4_but_1_text {
+  font-family: Avenir;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+}
+.Baner_indentations {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 72px;
+}
+
+.Baner_5 {
+  background: rgba(28, 37, 64, 0.95);
+  width: 100%;
+  max-width: 360px;
+  padding: 24px;
+  border-radius: 6px;
+  display: inline-block;
+  margin-right: 40px;
+}
+.Baner_5_name {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.Baner_5_text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 16px;
+}
+.Baner_5_text span {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.Baner_5_Manage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Baner_5_Manage-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  margin-right: 15px;
+}
+.Baner_5_Manage-but {
+  width: 100%;
+  max-width: 85px;
+  background-color: #09b3af;
+  text-align: center;
+  padding: 8px 20px;
+  border-radius: 6px;
+}
+.Baner_5_Manage-but a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+}
+.Baner_6 {
+  display: inline-block;
+  width: 100%;
+  max-width: 360px;
+  background: #ffffff;
+  box-shadow: 0px 12px 24px -6px rgba(96, 96, 96, 0.15),
+    0px 0px 1px rgba(96, 96, 96, 0.1);
+  border-radius: 16px;
+  padding: 16px;
+}
+.Baner_6_name {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.Baner_6_text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #687f8c;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 16px;
+}
+.Baner_6_Manage {
+  display: flex;
+}
+.Baner_6_Manage_but1 {
+  width: 100%;
+  max-width: 160px;
+  padding: 8px;
+  background: #eaf0f4;
+  box-shadow: 0px 2px 2px -2px rgba(34, 38, 50, 0.3);
+  border-radius: 6px;
+  text-align: center;
+}
+.Baner_6_Manage_but1 a {
+  color: #687f8c;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+}
+.Baner_6_Manage_but2 {
+  width: 100%;
+  max-width: 160px;
+  padding: 8px;
+  background: #40c1a7;
+  box-shadow: 0px 2px 2px -2px rgba(34, 38, 50, 0.3);
+  border-radius: 6px;
+  text-align: center;
+  margin-left: 8px;
+}
+.Baner_6_Manage_but2 a {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+}
+.Baner_7 {
+  width: 100%;
+  max-width: 320px;
+  background: #ffffff;
+  box-shadow: 0px 8px 32px rgba(10, 3, 89, 0.1);
+  border-radius: 20px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+}
+.Baner_7_name {
+  font-family: Gilroy;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 48px;
+  color: #15295a;
+  text-align: center;
+}
+.Baner_7_text {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #15295a;
+  text-align: center;
+  margin-bottom: 32px;
+}
+.Baner_7_but {
+  widows: 100%;
+  max-width: 121px;
+  background: #4a7eff;
+  border-radius: 43px;
+  padding: 10px 32px;
+  text-align: center;
+}
+.Baner_7_button a {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 24px;
+}
+.Baner_8 {
+  width: 100%;
+  max-width: 320px;
+  background: #ffffff;
+  box-shadow: 0px 8px 32px rgba(10, 3, 89, 0.1);
+  border-radius: 4px;
+  padding: 16px;
+}
+.Baner_8_text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+  margin-bottom: 12px;
+}
+.Baner_8_Policy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Baner_8_Policy-but_1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6666ff;
+  margin-right: 10px;
+}
+.Baner_8_Policy-but_2 {
+  width: 100%;
+  max-width: 64px;
+  padding: 8px;
+  background: #6666ff;
+  border-radius: 4px;
+}
+.Baner_8_Policy-but_2 a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+}
