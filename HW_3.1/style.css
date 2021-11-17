@@ -53,12 +53,16 @@ body {
   transition: background 0.2s linear;
   text-align: center;
 }
+.Baner_1_but a {
+  text-decoration: none;
+  color: white;
+}
 
 .Baner_1_button_text {
   font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 12px;
-  line-height: 20px;
+  line-height: 10px;
   color: #ffffff;
 }
 
@@ -230,7 +234,9 @@ body {
   padding: 8px 20px;
   border-radius: 6px;
 }
+
 .Baner_5_Manage-but a {
+  text-decoration: none;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -289,6 +295,7 @@ body {
   margin-left: 8px;
 }
 .Baner_6_Manage_but2 a {
+  text-decoration: none;
   font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
