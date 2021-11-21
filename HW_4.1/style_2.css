@@ -11,7 +11,7 @@ main {
   width: 1440px;
   margin: 0 auto;
 }
-.text {
+.bord_1_text {
   width: 445px;
 }
 .main_heder h2 {
@@ -32,18 +32,20 @@ main {
   align-items: center;
 }
 /*Секція 2 */
-
-.section_2 {
+.bord_2 {
+  display: flex;
+  width: 1140px;
+}
+.main_heder_2 {
   background: #ffffff;
   display: flex;
-  justify-content: space-between;
-  padding: 117px 176px;
+  justify-content: flex-start;
+  padding: 95px 165px;
 }
-.text_2 {
-  height: 713px;
-  width: 434px;
+.bord_2_text {
+  width: 445px;
 }
-.section_2 h2 {
+.main_heder_2 h2 {
   width: 445px;
   font-size: 36px;
 }
@@ -53,4 +55,41 @@ main {
   height: 281px;
   justify-content: space-between;
   align-items: flex-start;
+}
+.input_1 {
+  display: flex;
+  justify-content: end;
+  width: 540px;
+  height: 60px;
+  left: 735px;
+}
+
+.in_1 {
+}
+.input_2 {
+  display: flex;
+
+  width: 540px;
+  height: 400px;
+  left: 735px;
+  margin: 0 735px;
+}
+.in_2 {
+  display: flex;
+  flex-direction: column;
+}
+.in_2 input {
+  width: 540px;
+  border: 1px solid #333333;
+  box-sizing: border-box;
+  border-radius: 6px;
+  height: 60px;
+}
+.in_2 button {
+  background: #ed4c5c;
+  border: 1.5px solid #ed4c5c;
+  box-sizing: border-box;
+  border-radius: 6px;
+  width: 160px;
+  height: 60px;
 }
