@@ -78,9 +78,10 @@ td {
 }
 .tb_3 input {
   background: #464646;
+  text-align: center;
   font-size: 15px;
   width: 100px;
   height: 30px;
-  margin-right: -100px;
-  border-radius: 10px;
+  margin: -60px;
+  border-radius: 5px;
 }
