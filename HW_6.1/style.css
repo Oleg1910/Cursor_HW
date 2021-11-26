@@ -1,0 +1,238 @@
+body {
+  background-color: #e5e5e5;
+  margin-top: 50px;
+  margin: 50px auto;
+  margin-left: 240px;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.menu img {
+  margin-top: 12px;
+}
+.about {
+  width: 53px;
+  height: 30px;
+  margin-top: 15px;
+  margin-left: 121px;
+  size: 16px;
+  color: #212353;
+  font-family: Avenir;
+  font-weight: 800;
+}
+.help {
+  width: 53px;
+  height: 30px;
+  font-family: Avenir;
+  margin-top: 16px;
+  margin-left: 40px;
+  color: #4b5d68;
+}
+.booton {
+  margin-left: 418px;
+  width: 210px;
+  height: 60px;
+  background: #ffffff;
+  box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+  border-radius: 50px;
+}
+.booton_text {
+  height: 26px;
+  width: 152px;
+  padding-left: 26px;
+  margin-top: 6px;
+  color: #212353;
+  font-family: Avenir;
+}
+/* section /1/ */
+.section_1 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 190px;
+}
+
+.heder_section_1_1 {
+  display: flex;
+  flex-direction: column;
+}
+.heder_section_1 {
+  width: 645px;
+  height: 184px;
+  font-family: Helvetica;
+  font-size: 55px;
+  line-height: 80px;
+  color: #212353;
+}
+.text_section_1 {
+  margin-top: 60px;
+  width: 380px;
+  height: 120px;
+  font-family: Avenir;
+  font-size: 18px;
+  line-height: 160%;
+}
+.button_section_1 {
+  margin-top: 66px;
+  width: 170px;
+  height: 60px;
+  background: #9c69e2;
+  border-radius: 50px;
+}
+.button_section_1 button {
+  background: #9c69e2;
+  border: 0px;
+  font-family: Avenir;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 160%;
+  margin-top: 16px;
+  margin-left: 30px;
+}
+.img_section_1 img {
+  display: flex;
+  justify-content: left;
+  width: 800px;
+  height: 468px;
+  margin-left: -300px;
+  margin-top: 150px;
+}
+/*  */
+.section_2 {
+  display: flex;
+  flex-direction: row;
+  width: 1117px;
+  height: 560px;
+  padding-left: 15px;
+  background: rgba(240, 99, 184, 0.15);
+  border-radius: 50px;
+  margin-top: 100px;
+}
+.img_section_1_2 img {
+  width: 477px;
+  height: 504px;
+}
+.section_1_2_Flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.heder_1_section_2 {
+  padding-top: 125px;
+  font-family: Helvetica;
+  width: 475px;
+  height: 100px;
+  font-size: 40px;
+  line-height: 130%;
+  color: #212353;
+}
+.text_1_section_2 {
+  margin-top: 40px;
+  font-family: Avenir;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+}
+/* section_3 */
+.section_3 {
+  display: flex;
+  flex-direction: column;
+}
+.heder_section_3 {
+  margin-top: 150px;
+  margin-left: 396px;
+  width: 405px;
+  height: 52px;
+  font-family: Helvetica;
+  font-size: 40px;
+  line-height: 130%;
+  color: #212353;
+  text-align: center;
+}
+.text_section_3 {
+  width: 584px;
+  height: 58px;
+  margin-top: 50px;
+  margin-left: 307px;
+  text-align: center;
+  font-family: Avenir;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+}
+.page_1 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 149px;
+}
+.img_1_section_3 {
+  width: 232px;
+  height: 211px;
+  margin-left: 10px;
+  margin-top: 24px;
+}
+.text_page_1P {
+  display: flex;
+  flex-direction: column;
+}
+.heder_1_pg_1 {
+  width: 200px;
+  height: 50px;
+  font-family: Helvetica;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 130%;
+  color: #212353;
+  margin-left: 10px;
+}
+.text_1_pg_1 {
+  margin-top: 20px;
+  width: 220px;
+  height: 160px;
+  font-family: Avenir;
+  font-size: 16px;
+  line-height: 160%;
+  color: #4b5d68;
+  margin-left: 10px;
+}
+.button_1_pg_1P {
+  width: 87px;
+  height: 26px;
+  padding-left: 500px;
+}
+.text_page_2 {
+  display: flex;
+  flex-direction: column;
+}
+.mg_2_section_3 {
+  width: 241px;
+  height: 185px;
+  margin-left: 92px;
+  margin-top: 22px;
+}
+
+.text_page_3 {
+  display: flex;
+  flex-direction: column;
+}
+.heder_1_pg_3 {
+  width: 200px;
+  height: 50px;
+  font-family: Helvetica;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 130%;
+  color: #212353;
+  margin-left: 33px;
+}
+.text_1_pg_3 {
+  margin-top: 20px;
+  width: 220px;
+  height: 160px;
+  font-family: Avenir;
+  font-size: 16px;
+  line-height: 160%;
+  color: #4b5d68;
+  margin-left: 33px;
+}
